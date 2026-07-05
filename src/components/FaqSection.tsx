@@ -3,28 +3,28 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Plus, Minus } from 'lucide-react';
 const faqs = [
 {
-  q: '¿Es un producto físico o digital?',
-  a: 'Es un sistema 100% digital. Recibirás acceso inmediato a todos los bloques, materiales, plantillas y bonos para descargar, editar e imprimir todas las veces que necesites.'
+  q: '¿Es físico o digital?',
+  a: '100% digital. Acceso inmediato para descargar, editar e imprimir.'
 },
 {
-  q: '¿Necesito experiencia realizando auditorías?',
-  a: 'No. El sistema fue desarrollado tanto para profesionales con experiencia como para Técnicos y Licenciados que recién comienzan a brindar servicios de auditoría.'
+  q: '¿Necesito experiencia previa?',
+  a: 'No. El sistema guía el proceso completo desde el principio.'
 },
 {
-  q: '¿Sirve para cualquier provincia de Argentina?',
-  a: 'Sí. El contenido fue pensado para profesionales que trabajan en Argentina y puede adaptarse fácilmente a distintos tipos de empresas y actividades.'
+  q: '¿Sirve para cualquier provincia?',
+  a: 'Sí. Los documentos son adaptables a cualquier contexto.'
 },
 {
-  q: '¿Puedo adaptar los documentos a mis clientes?',
-  a: 'Sí. Todo el material fue diseñado para editarse fácilmente y personalizarse según cada empresa.'
+  q: '¿Puedo adaptarlo a mis clientes?',
+  a: 'Sí. Todos los archivos son editables.'
 },
 {
   q: '¿Cuándo recibo el acceso?',
-  a: 'Inmediatamente después de confirmar tu compra recibirás un correo electrónico con acceso completo al Sistema Maestro y todos sus bonos.'
+  a: 'Inmediatamente después del pago.'
 },
 {
-  q: '¿Qué pasa si ya tengo algunos modelos de auditoría?',
-  a: 'Este sistema no busca reemplazar tu experiencia. Su objetivo es ayudarte a trabajar con un método mucho más organizado, profesional y eficiente, incorporando herramientas listas para utilizar desde el primer día.'
+  q: '¿Ya tengo algunos modelos míos?',
+  a: 'Este sistema los complementa y los organiza dentro de un método.'
 }];
 
 export function FaqSection() {
@@ -34,7 +34,7 @@ export function FaqSection() {
       <div className="container mx-auto px-4 max-w-[1100px]">
         <div className="text-center mb-12">
           <h2 className="font-heading text-4xl md:text-5xl font-semibold text-[#2f3a2c] leading-tight">
-            Preguntas Frecuentes
+            ❓ Preguntas Frecuentes
           </h2>
         </div>
 

@@ -53,17 +53,9 @@ export function PricingSection() {
       className="relative overflow-hidden bg-[#4a553f] pt-[30px] pb-[30px]">
 
       <div className="container mx-auto px-4 max-w-2xl text-center relative z-10">
-        <span className="inline-block px-6 py-2.5 mb-6 rounded-full border border-white/20 bg-white/10 text-white font-bold tracking-[0.1em] uppercase text-xs">
-          OFERTA ESPECIAL — SISTEMA COMPLETO
+        <span className="inline-block px-6 py-2.5 mb-8 rounded-full border border-white/20 bg-white/10 text-white font-bold tracking-[0.1em] uppercase text-xs">
+          🔥 Oferta de Lanzamiento
         </span>
-
-        <h2 className="font-heading text-2xl md:text-3xl font-semibold text-white leading-tight mb-8">
-          Accedé hoy al Sistema Maestro de Auditorías HyS y{' '}
-          <span className="italic text-[#e8c9a3]">
-            empezá a trabajar con un método profesional
-          </span>{' '}
-          desde el primer día.
-        </h2>
 
         <div className="relative inline-block mb-8 w-full max-w-[220px] mx-auto">
           <img
@@ -103,17 +95,16 @@ export function PricingSection() {
           </div>
 
           <p className="text-[#4b5347] font-medium text-base mb-2">
-            Tu inversión hoy:
+            ✅ Tu inversión hoy:
           </p>
           <div className="font-heading text-6xl md:text-7xl font-bold text-[#b85c43] leading-none mb-4">
-            $19.990
+            $19.990 ARS
           </div>
           <p className="text-[#4b5347] font-medium text-base mb-2">
             Pagás una sola vez. Acceso para siempre.
           </p>
           <p className="text-[#b85c43] font-semibold text-sm mb-8">
-            🔥 ¡Última oportunidad! El precio aumentará al finalizar esta
-            promoción.
+            ⏳ El precio sube al terminar.
           </p>
 
           <div className="flex justify-center gap-4 mb-8">

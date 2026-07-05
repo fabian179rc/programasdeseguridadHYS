@@ -1,25 +1,18 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { CheckCircle2 } from 'lucide-react';
 const features = [
 {
-  icon: '✅',
-  title: 'Auditorías Mucho Más Profesionales',
-  desc: 'Realizá auditorías con un proceso claro, ordenado y repetible, transmitiendo mayor confianza frente a cada cliente.'
+  title: 'Auditorías más profesionales'
 },
 {
-  icon: '✅',
-  title: 'Informes Técnicos con Mayor Respaldo',
-  desc: 'Documentá hallazgos, evidencias y acciones correctivas utilizando criterios técnicos claros y defendibles.'
+  title: 'Informes con respaldo técnico'
 },
 {
-  icon: '✅',
-  title: 'Seguimiento Real de Cada Desvío',
-  desc: 'Convertí cada observación en un plan de acción concreto y controlá su cumplimiento hasta el cierre.'
+  title: 'Seguimiento real de cada desvío'
 },
 {
-  icon: '✅',
-  title: 'Más Tiempo Para Atender Empresas',
-  desc: 'Dejá de improvisar formularios e informes y dedicá ese tiempo a conseguir nuevos clientes y hacer crecer tu consultora.'
+  title: 'Más tiempo para hacer crecer tu consultora'
 }];
 
 export function FeaturesSection() {
@@ -27,12 +20,12 @@ export function FeaturesSection() {
     <section className="py-16 md:py-24 bg-[#f9f8f6] pt-[30px] pb-[30px]">
       <div className="container mx-auto px-4 max-w-[1100px]">
         <div className="text-center mb-12">
-          <h2 className="font-heading text-3xl md:text-5xl font-semibold text-[#2f3a2c] uppercase">
-            ¿Qué vas a lograr con este sistema?
-          </h2>
+          <span className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-[#4a553f] text-white font-bold tracking-[0.1em] uppercase text-xs md:text-sm">
+            ✅ Lo que vas a lograr
+          </span>
         </div>
 
-        <div className="grid sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
+        <div className="flex flex-col gap-5 max-w-xl mx-auto">
           {features.map((feature, i) =>
           <motion.div
             key={i}
@@ -50,17 +43,12 @@ export function FeaturesSection() {
             transition={{
               delay: i * 0.08
             }}
-            className="flex items-start gap-4 bg-white p-8 rounded-2xl border border-[#e6ddc7]">
+            className="flex items-center gap-4">
 
-              <div className="text-3xl flex-shrink-0 mt-1">{feature.icon}</div>
-              <div>
-                <h3 className="font-bold text-[#2f3a2c] mb-2 text-xl">
-                  {feature.title}
-                </h3>
-                <p className="text-[#4b5347] leading-relaxed text-lg">
-                  {feature.desc}
-                </p>
-              </div>
+              <CheckCircle2 className="w-6 h-6 flex-shrink-0 text-[#b85c43]" />
+              <h3 className="font-bold text-[#2f3a2c] text-lg md:text-xl">
+                {feature.title}
+              </h3>
             </motion.div>
           )}
         </div>

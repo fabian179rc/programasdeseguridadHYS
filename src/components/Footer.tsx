@@ -8,7 +8,7 @@ export function Footer() {
         </div>
 
         <p className="text-sm max-w-2xl mx-auto mb-10 leading-relaxed text-white/50">
-          Este producto constituye una herramienta de organización, planificación y documentación para profesionales de Higiene y Seguridad. No reemplaza la normativa vigente, el criterio técnico profesional ni el asesoramiento legal específico cuando corresponda.
+          Este producto es una herramienta de organización y documentación para profesionales. No reemplaza la normativa vigente ni el criterio técnico profesional.
         </p>
 
         <div className="flex flex-wrap justify-center gap-6 text-sm mb-10 font-medium">

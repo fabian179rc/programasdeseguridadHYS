@@ -4,8 +4,8 @@ import { ProblemSection } from '../components/ProblemSection';
 import { SolutionSection } from '../components/SolutionSection';
 import { FeaturesSection } from '../components/FeaturesSection';
 import { BloquesSection } from '../components/BloquesSection';
+import { ProcessesSection } from '../components/ProcessesSection';
 import { BonusesSection } from '../components/BonusesSection';
-import { ChangesSection } from '../components/ChangesSection';
 import { PricingSection } from '../components/PricingSection';
 import { GuaranteeSection } from '../components/GuaranteeSection';
 import { TestimonialsBottom } from '../components/TestimonialsBottom';
@@ -27,10 +27,10 @@ export function Landing() {
         <BloquesSection />
       </div>
       <div className="cv-section">
-        <BonusesSection />
+        <ProcessesSection />
       </div>
       <div className="cv-section">
-        <ChangesSection />
+        <BonusesSection />
       </div>
       <PricingSection />
       <div className="cv-section">

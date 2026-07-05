@@ -3,23 +3,18 @@ import { motion } from 'framer-motion';
 const situations = [
 {
   emoji: '😰',
-  title: 'Cada Auditoría Empieza Desde Cero',
-  desc: 'Cada cliente requiere volver a preparar checklists, formularios, informes y documentación. Nunca sentís que tenés un método realmente organizado.'
+  title: 'Empezás cada auditoría desde cero',
+  desc: 'Checklists, formularios e informes a preparar de nuevo.'
 },
 {
   emoji: '😩',
-  title: 'El Miedo a Olvidarte un Hallazgo Importante',
-  desc: 'Sabés que una observación que no registraste hoy puede convertirse en un problema mañana.'
-},
-{
-  emoji: '⚖️',
-  title: 'La Responsabilidad Técnica Que Siempre Está Presente',
-  desc: 'No alcanza con detectar un riesgo. Necesitás documentarlo correctamente, clasificarlo y respaldar cada observación con evidencia.'
+  title: 'Miedo a olvidar un hallazgo',
+  desc: 'Lo que no registraste hoy puede ser un problema mañana.'
 },
 {
   emoji: '⏱️',
-  title: 'Horas Perdidas Armando Informes',
-  desc: 'Terminás la recorrida en una hora… pero después pasás toda la tarde redactando informes y organizando fotografías.'
+  title: 'Horas perdidas en informes',
+  desc: 'La recorrida dura 1 hora, el informe toda la tarde.'
 }];
 
 export function ProblemSection() {
@@ -30,15 +25,9 @@ export function ProblemSection() {
           <h2 className="font-heading text-3xl md:text-5xl font-semibold mb-4 text-[#2f3a2c] uppercase">
             ¿Te reconocés en esto?
           </h2>
-          <p className="text-xl md:text-2xl font-heading italic text-[#8a6a4f] mb-6">
-            ¿Las auditorías te llevan más tiempo del que deberían?
-          </p>
-          <p className="text-lg text-[#4b5347] leading-relaxed max-w-2xl mx-auto">
-            Si sos Técnico o Licenciado en Higiene y Seguridad, probablemente vivís alguna de estas situaciones:
-          </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
+        <div className="grid sm:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {situations.map((item, i) =>
           <motion.div
             key={i}

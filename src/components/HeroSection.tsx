@@ -1,13 +1,13 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { scrollToOffer } from '../utils/scrollToOffer';
+import React from "react";
+import { motion } from "framer-motion";
+import { scrollToOffer } from "../utils/scrollToOffer";
 export function HeroSection() {
   return (
     <section className="relative md:pt-0 md:pb-24 overflow-hidden bg-[#f9f8f6] pt-0 pb-[30px]">
       <div
         aria-hidden="true"
-        className="absolute top-0 left-0 w-full h-full overflow-hidden z-0 pointer-events-none">
-
+        className="absolute top-0 left-0 w-full h-full overflow-hidden z-0 pointer-events-none"
+      >
         <div className="absolute -top-[10%] left-1/2 -translate-x-1/2 w-[80%] h-[60%] rounded-full bg-[#b85c43]/10 blur-3xl" />
       </div>
 
@@ -15,72 +15,54 @@ export function HeroSection() {
         <motion.div
           initial={{
             opacity: 0,
-            y: 12
+            y: 12,
           }}
           animate={{
             opacity: 1,
-            y: 0
+            y: 0,
           }}
           transition={{
-            duration: 0.5
+            duration: 0.5,
           }}
-          className="inline-flex items-center gap-2 px-6 py-2.5 mb-8 rounded-full bg-[#4a553f] text-white font-bold tracking-[0.1em] uppercase text-[10px] md:text-[12px] mt-0">
-
-          ✨ SISTEMA COMPLETO PARA PROFESIONALES DE HIGIENE Y SEGURIDAD
+          className="inline-flex items-center gap-2 px-4 py-1.5 mb-[22px] md:mb-8 md:px-6 md:py-2.5 rounded-full bg-[#4a553f] text-white font-bold tracking-[0.1em] uppercase text-[10.5px] md:text-[12px] mt-0"
+        >
+          ✨ SISTEMA MAESTRO DE AUDITORÍAS HyS
         </motion.div>
 
         <motion.h2
           initial={{
             opacity: 0,
-            y: 16
+            y: 16,
           }}
           animate={{
             opacity: 1,
-            y: 0
+            y: 0,
           }}
           transition={{
             duration: 0.6,
-            delay: 0.1
+            delay: 0.1,
           }}
-          className="font-heading md:text-5xl mb-6 max-w-3xl mx-auto text-[30px] font-semibold leading-tight text-[#2f3a2c]">
-
-          Todo lo que necesitás para realizar auditorías profesionales…{' '}
+          className="font-heading md:text-5xl mb-[35px] md:mb-6 max-w-3xl mx-auto text-[29px] font-semibold leading-[1.2] md:leading-tight text-[#2f3a2c]"
+        >
+          Todo lo que necesitás para realizar auditorías profesionales…{" "}
           <span className="italic text-[#8a6a4f]">ya está listo.</span>
         </motion.h2>
-
-        <motion.p
-          initial={{
-            opacity: 0,
-            y: 12
-          }}
-          animate={{
-            opacity: 1,
-            y: 0
-          }}
-          transition={{
-            duration: 0.6,
-            delay: 0.15
-          }}
-          className="font-heading text-xl md:text-2xl font-bold text-[#2f3a2c] mb-8">
-
-          Sistema Maestro de Auditorías HyS
-        </motion.p>
 
         <motion.div
           initial={{
             opacity: 0,
-            scale: 0.96
+            scale: 0.96,
           }}
           animate={{
             opacity: 1,
-            scale: 1
+            scale: 1,
           }}
           transition={{
             duration: 0.6,
-            delay: 0.2
+            delay: 0.2,
           }}
-          className="mb-10 max-w-sm mx-auto">
-
+          className="mb-[18px] md:mb-10 max-w-[400px] md:max-w-sm mx-auto"
+        >
           <img
             src={`${import.meta.env.BASE_URL}mockup.webp`}
             alt="Sistema Maestro de Auditorías HyS"
@@ -89,66 +71,67 @@ export function HeroSection() {
             loading="eager"
             fetchPriority="high"
             decoding="async"
-            className="w-full h-auto object-contain drop-shadow-2xl rounded-2xl" />
-
+            className="w-full h-auto object-contain drop-shadow-2xl rounded-2xl"
+          />
         </motion.div>
 
         <motion.p
           initial={{
             opacity: 0,
-            y: 16
+            y: 16,
           }}
           animate={{
             opacity: 1,
-            y: 0
+            y: 0,
           }}
           transition={{
             duration: 0.6,
-            delay: 0.3
+            delay: 0.3,
           }}
-          className="md:text-xl text-[#4b5347] mb-10 max-w-2xl mx-auto text-[16px] font-medium">
-
-          Checklists, formularios, actas, informes, evidencias, planes de acción y seguimiento listos para implementar desde el primer día.
+          className="md:text-xl text-[#4b5347] my-[40px] md:my-10 max-w-2xl mx-auto text-[13.75px] leading-snug md:leading-normal font-medium"
+        >
+          Checklists, formularios, actas, informes, evidencias y planes de
+          acción listos para usar desde el primer día.
         </motion.p>
 
         <motion.div
           initial={{
             opacity: 0,
-            y: 16
+            y: 16,
           }}
           animate={{
             opacity: 1,
-            y: 0
+            y: 0,
           }}
           transition={{
             duration: 0.6,
-            delay: 0.4
+            delay: 0.4,
           }}
-          className="flex flex-col items-center">
-
+          className="flex flex-col items-center"
+        >
           <motion.a
             href="#comprar"
             onClick={scrollToOffer}
             whileHover={{
-              scale: 1.02
+              scale: 1.02,
             }}
             whileTap={{
-              scale: 0.98
+              scale: 0.98,
             }}
-            className="flex items-center justify-center gap-3 w-full sm:w-auto bg-[#b85c43] hover:bg-[#a34f38] text-white font-extrabold px-10 py-5 rounded-full shadow-lg shadow-[#b85c43]/30 transition-colors mb-6 text-[18px] md:text-[20px]">
-
-            🚀 SÍ, QUIERO EL SISTEMA MAESTRO
+            className="flex items-center justify-center gap-2 md:gap-3 w-full sm:w-auto bg-[#b85c43] hover:bg-[#a34f38] text-white font-extrabold px-7 py-[12px] md:px-10 md:py-5 rounded-full shadow-lg shadow-[#b85c43]/30 transition-colors mb-[28px] md:mb-6 text-[14.75px] md:text-[20px]"
+          >
+            🚀 ¡SI, ACCEDER AL SISTEMA MAESTRO!
           </motion.a>
 
-          <div className="flex flex-wrap justify-center gap-4 text-sm font-semibold text-[#4b5347]">
+          <div className="flex flex-wrap justify-center gap-1.5 md:gap-4 text-[13.25px] md:text-sm font-semibold text-[#4b5347]">
             <span>
               <span aria-hidden="true">⭐⭐⭐⭐⭐</span> 4.9/5 — Reseñas
               verificadas
             </span>
             <span
               aria-hidden="true"
-              className="hidden sm:inline text-[#c1c8b6]">
-
+              className="hidden sm:inline text-[#c1c8b6]"
+            >
               |
             </span>
             <span>
@@ -158,6 +141,6 @@ export function HeroSection() {
           </div>
         </motion.div>
       </div>
-    </section>);
-
+    </section>
+  );
 }

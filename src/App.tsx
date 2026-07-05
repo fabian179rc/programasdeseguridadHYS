@@ -6,7 +6,7 @@ const META_PIXEL_ID = "1656160899010195";
 const PAGE_TITLE =
   "Sistema Maestro de Auditorías HyS — Sistema Completo para Profesionales de Higiene y Seguridad";
 const PAGE_DESC =
-  "Checklists, formularios, actas, informes, evidencias, planes de acción y seguimiento listos para implementar desde el primer día.";
+  "Checklists, formularios, actas, informes, evidencias y planes de acción listos para usar desde el primer día.";
 const HERO_IMAGE = `${import.meta.env.BASE_URL}mockup.webp`;
 
 const SITE_URL = "https://sistema-maestro-de-auditorias-hys.impultienda.ar";
@@ -106,28 +106,28 @@ export function App() {
         "@type": "FAQPage",
         mainEntity: [
           {
-            q: "¿Es un producto físico o digital?",
-            a: "Es un sistema 100% digital. Recibirás acceso inmediato a todos los bloques, materiales, plantillas y bonos para descargar, editar e imprimir todas las veces que necesites.",
+            q: "¿Es físico o digital?",
+            a: "100% digital. Acceso inmediato para descargar, editar e imprimir.",
           },
           {
-            q: "¿Necesito experiencia realizando auditorías?",
-            a: "No. El sistema fue desarrollado tanto para profesionales con experiencia como para Técnicos y Licenciados que recién comienzan a brindar servicios de auditoría.",
+            q: "¿Necesito experiencia previa?",
+            a: "No. El sistema guía el proceso completo desde el principio.",
           },
           {
-            q: "¿Sirve para cualquier provincia de Argentina?",
-            a: "Sí. El contenido fue pensado para profesionales que trabajan en Argentina y puede adaptarse fácilmente a distintos tipos de empresas y actividades.",
+            q: "¿Sirve para cualquier provincia?",
+            a: "Sí. Los documentos son adaptables a cualquier contexto.",
           },
           {
-            q: "¿Puedo adaptar los documentos a mis clientes?",
-            a: "Sí. Todo el material fue diseñado para editarse fácilmente y personalizarse según cada empresa.",
+            q: "¿Puedo adaptarlo a mis clientes?",
+            a: "Sí. Todos los archivos son editables.",
           },
           {
             q: "¿Cuándo recibo el acceso?",
-            a: "Inmediatamente después de confirmar tu compra recibirás un correo electrónico con acceso completo al Sistema Maestro y todos sus bonos.",
+            a: "Inmediatamente después del pago.",
           },
           {
-            q: "¿Qué pasa si ya tengo algunos modelos de auditoría?",
-            a: "Este sistema no busca reemplazar tu experiencia. Su objetivo es ayudarte a trabajar con un método mucho más organizado, profesional y eficiente, incorporando herramientas listas para utilizar desde el primer día.",
+            q: "¿Ya tengo algunos modelos míos?",
+            a: "Este sistema los complementa y los organiza dentro de un método.",
           },
         ].map((item) => ({
           "@type": "Question",

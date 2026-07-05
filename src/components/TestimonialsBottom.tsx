@@ -6,29 +6,29 @@ const testimonials = [
   initial: 'M',
   color: 'bg-[#f6d9c4] text-[#2f3a2c]',
   name: 'Martín G.',
-  location: 'Técnico en HyS — Buenos Aires',
-  text: 'Antes hacía las auditorías según me iba acordando de las cosas. Ahora sigo siempre el mismo método y los informes me quedan mucho más claros y profesionales.'
+  location: 'Técnico en HyS · Buenos Aires',
+  text: 'Ahora sigo siempre el mismo método y los informes me quedan mucho más claros y profesionales.'
 },
 {
   initial: 'C',
   color: 'bg-[#cdd9c2] text-[#2f3a2c]',
   name: 'Carolina R.',
-  location: 'Licenciada en HyS — Córdoba',
-  text: 'El módulo de clasificación de hallazgos solo ya justificó toda la compra. Ahora sé exactamente cómo priorizar cada desvío y cómo documentarlo correctamente.'
+  location: 'Licenciada en HyS · Córdoba',
+  text: 'El módulo de clasificación de hallazgos solo ya justificó toda la compra.'
 },
 {
   initial: 'D',
   color: 'bg-[#e6ddc7] text-[#2f3a2c]',
   name: 'Diego T.',
-  location: 'Técnico en HyS — Rosario',
-  text: 'Los modelos de informes me ahorran muchísimo tiempo. Antes tardaba horas organizando fotos y redactando observaciones. Ahora termino todo mucho más rápido.'
+  location: 'Técnico en HyS · Rosario',
+  text: 'Antes tardaba horas organizando fotos. Ahora termino todo mucho más rápido.'
 },
 {
   initial: 'P',
   color: 'bg-[#f6d9c4] text-[#2f3a2c]',
   name: 'Paula B.',
-  location: 'Licenciada en HyS — Mendoza',
-  text: 'Mis clientes empezaron a notar el cambio enseguida. Las auditorías tienen otro nivel de organización y eso transmite mucha más confianza.'
+  location: 'Licenciada en HyS · Mendoza',
+  text: 'Mis clientes empezaron a notar el cambio enseguida. Las auditorías tienen otro nivel.'
 }];
 
 export function TestimonialsBottom() {
@@ -38,7 +38,7 @@ export function TestimonialsBottom() {
         <div className="text-center mb-16">
           <MessageCircle className="w-10 h-10 text-[#d4a017] mx-auto mb-4" />
           <h2 className="font-heading text-3xl md:text-5xl font-semibold text-[#2f3a2c]">
-            Lo que otros profesionales de HyS están diciendo
+            Lo que dicen otros profesionales de HyS
           </h2>
         </div>
 
