@@ -73,11 +73,11 @@ export function ContentSection() {
           ))}
         </div>
 
-        <div className="mb-8">
+        <div className="mb-6">
           <h3 className="font-heading font-bold text-[#2f3a2c] text-xl md:text-2xl mb-4 text-center">
             Cada etapa clave del programa, cubierta paso a paso.
           </h3>
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-1.5">
             {temas.map((t, i) => (
               <motion.div
                 key={i}
@@ -85,9 +85,9 @@ export function ContentSection() {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.03 }}
-                className="flex items-center gap-2.5 bg-white border border-slate-200 rounded-xl px-4 py-3 shadow-sm"
+                className="flex items-center gap-2 bg-white border border-slate-200 rounded-lg px-3 py-1.5 shadow-sm"
               >
-                <span className="text-xl flex-shrink-0" aria-hidden="true">
+                <span className="text-lg flex-shrink-0" aria-hidden="true">
                   {t.emoji}
                 </span>
                 <span className="font-semibold text-[#2f3a2c] text-sm md:text-[15px] leading-tight">
