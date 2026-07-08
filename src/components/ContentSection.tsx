@@ -74,6 +74,9 @@ export function ContentSection() {
         </div>
 
         <div className="mb-8">
+          <h3 className="font-heading font-bold text-[#2f3a2c] text-xl md:text-2xl mb-4 text-center">
+            Cada etapa clave del programa, cubierta paso a paso.
+          </h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
             {temas.map((t, i) => (
               <motion.div
