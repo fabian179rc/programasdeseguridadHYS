@@ -7,28 +7,28 @@ const testimonials = [
   color: 'bg-pink-100 text-pink-700',
   name: 'Martín G.',
   location: 'Técnico en HyS — Buenos Aires',
-  text: 'Antes tardaba tres días en armar un programa de obra. Ahora cargo los datos, adapto las medidas preventivas del catálogo y en una tarde tengo todo listo para presentar.'
+  text: 'Antes tardaba tres días en armar un programa. Ahora, en una tarde, tengo todo listo para presentar.'
 },
 {
   initial: 'C',
   color: 'bg-blue-100 text-blue-700',
   name: 'Carolina F.',
   location: 'Licenciada en HyS — Córdoba',
-  text: 'La ART me rechazó dos veces el programa antes de tener este sistema. Desde que uso la Checklist Pre-Entrega, nunca más tuve un rechazo.'
+  text: 'La ART me rechazó el programa dos veces. Desde que uso la Checklist Pre-Entrega, nunca más tuve un rechazo.'
 },
 {
   initial: 'R',
   color: 'bg-emerald-100 text-emerald-700',
   name: 'Roberto S.',
   location: 'Consultor HyS — Rosario',
-  text: 'Los PTS críticos del Bono 3 solos ya valieron la compra. Tenía miedo de armar el de espacios confinados. Ahora lo entrego con confianza.'
+  text: 'Los PTS críticos del Bono 3 solos ya valieron la compra. Ahora entrego el de espacios confinados con total confianza.'
 },
 {
   initial: 'A',
   color: 'bg-amber-100 text-amber-700',
   name: 'Andrea P.',
   location: 'Responsable HyS — Mendoza',
-  text: 'Cuando hubo un accidente leve en obra, el inspector revisó mi programa. Estaba todo: riesgos, medidas, firmas, PTS. No tuve ningún problema.'
+  text: 'Hubo un accidente leve en obra y el inspector revisó mi programa. Estaba todo. No tuve ningún problema.'
 }];
 
 export function TestimonialsBottom() {
