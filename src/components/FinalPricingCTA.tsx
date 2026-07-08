@@ -21,8 +21,7 @@ export function FinalPricingCTA() {
           Tu programa de seguridad merece ser un documento profesional.
         </h2>
         <p className="text-lg text-slate-600 mb-8 max-w-2xl mx-auto">
-          Un sistema claro, coherente y defendible — listo para usar desde
-          hoy.
+          Un sistema claro, coherente y defendible — listo para usar desde hoy.
         </p>
 
         <div className="bg-white border border-amber-100 rounded-3xl p-6 md:p-7 shadow-lg shadow-black/5 max-w-xl mx-auto mb-6">
@@ -45,13 +44,20 @@ export function FinalPricingCTA() {
             className="flex items-center justify-center gap-3 w-full bg-[#B85C43] hover:bg-[#A34F38] text-white font-bold text-lg md:text-xl px-6 py-5 rounded-full shadow-lg shadow-[#B85C43]/30 transition-colors mb-4"
           >
             <span className="text-center">
-              🚀 SÍ, QUIERO MI SISTEMA
+              🚀 Descargar el Sistema Completo
             </span>
             <ArrowRight className="w-6 h-6 flex-shrink-0" />
           </motion.a>
         </div>
 
         <div className="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-4 text-sm text-slate-500 font-medium">
+          <span>
+            <span aria-hidden="true">👥</span> +1.200 técnicos y
+            profesionales HyS ya lo descargaron
+          </span>
+          <span aria-hidden="true" className="hidden sm:inline text-slate-300">
+            |
+          </span>
           <span>
             <span aria-hidden="true">⭐⭐⭐⭐⭐</span> 4.9/5 — Reseñas
             verificadas

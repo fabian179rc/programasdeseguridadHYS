@@ -100,8 +100,7 @@ export function PricingSection() {
       >
         <div className="bg-white rounded-3xl shadow-2xl shadow-black/10 p-7 md:p-8 text-center">
           <div className="text-slate-500 text-base md:text-lg mb-3">
-            Precio Normal :{" "}
-            <span className="line-through">$74.940 ARS</span>
+            Precio Normal : <span className="line-through">$74.940 ARS</span>
           </div>
 
           <div className="inline-flex items-center gap-2 bg-[#B85C43] text-white font-bold px-5 py-2.5 rounded-full text-sm mb-5">
@@ -146,12 +145,16 @@ export function PricingSection() {
             className="flex items-center justify-center gap-3 w-full bg-[#B85C43] hover:bg-[#A34F38] text-white font-bold text-lg md:text-xl px-6 py-5 rounded-full shadow-lg shadow-[#B85C43]/30 transition-colors mb-6"
           >
             <span className="flex items-center gap-2 text-center">
-              🚀 SÍ, QUIERO MI SISTEMA
+              🚀 Descargar el Sistema Completo
             </span>
             <ArrowRight className="w-6 h-6 flex-shrink-0" />
           </motion.a>
 
           <div className="flex flex-col items-center gap-2 text-sm text-slate-500 font-medium">
+            <span>
+              <span aria-hidden="true">👥</span> +1.200 técnicos y
+              profesionales HyS ya lo descargaron
+            </span>
             <span>
               <span aria-hidden="true">⭐⭐⭐⭐⭐</span> 4.9/5 — Reseñas
               verificadas

@@ -44,8 +44,7 @@ export function HeroSection() {
           }}
           className="font-heading md:text-6xl font-extrabold text-[#2f3a2c] mb-4 text-[26px]"
         >
-          Cada programa que redactás desde cero es tiempo que perdés y riesgo
-          que asumís.{" "}
+          ¿Seguís armando Programas de Seguridad desde cero?{" "}
           <span className="text-[#B85C43]">Eso se termina HOY.</span>
         </motion.h1>
 
@@ -91,9 +90,9 @@ export function HeroSection() {
           }}
           className="md:text-xl text-slate-600 mb-6 max-w-2xl mx-auto text-[12px] mt-8"
         >
-          Descargá, abrí y usá. Estructura, redacción y gestión de programas
-          de seguridad profesionales, listos para presentar, defender y
-          firmar con confianza.
+          Descargá, abrí y usá. Estructura, redacción y gestión de programas de
+          seguridad profesionales, listos para presentar, defender y firmar con
+          confianza.
         </motion.p>
 
         <motion.div
@@ -122,10 +121,20 @@ export function HeroSection() {
             }}
             className="flex items-center justify-center gap-3 w-full sm:w-auto bg-[#B85C43] hover:bg-[#A34F38] text-white font-bold px-8 py-4 rounded-full shadow-lg shadow-[#B85C43]/30 transition-colors mb-14 text-[16px]"
           >
-            🚀 ¡SÍ, QUIERO MI SISTEMA!
+            🚀 Descargar el Sistema Completo
           </motion.a>
 
           <div className="flex flex-wrap justify-center gap-4 text-sm font-medium text-slate-600">
+            <span>
+              <span aria-hidden="true">👥</span> +1.200 técnicos y
+              profesionales HyS ya lo descargaron
+            </span>
+            <span
+              aria-hidden="true"
+              className="hidden sm:inline text-slate-300"
+            >
+              |
+            </span>
             <span>
               <span aria-hidden="true">⭐⭐⭐⭐⭐</span> 4.9/5 — Reseñas
               verificadas
