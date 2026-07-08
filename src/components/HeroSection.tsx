@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { scrollToOffer } from "../utils/scrollToOffer";
 export function HeroSection() {
   return (
-    <section className="relative md:min-h-[100svh] flex flex-col justify-start md:justify-center overflow-hidden bg-transparent py-6">
+    <section className="relative md:min-h-[100svh] flex flex-col justify-start overflow-hidden bg-transparent py-6 md:pt-0 md:pb-6">
       <div
         aria-hidden="true"
         className="absolute top-0 left-0 w-full h-full overflow-hidden z-0 pointer-events-none"
@@ -11,7 +11,7 @@ export function HeroSection() {
         <div className="absolute -top-[10%] left-1/2 -translate-x-1/2 w-[80%] h-[60%] rounded-full bg-[#d4a017]/5 blur-3xl" />
       </div>
 
-      <div className="container mx-auto px-4 relative z-10 max-w-3xl text-center">
+      <div className="container mx-auto px-4 relative z-10 max-w-3xl md:max-w-4xl text-center">
         <motion.div
           initial={{
             opacity: 0,
@@ -24,7 +24,7 @@ export function HeroSection() {
           transition={{
             duration: 0.5,
           }}
-          className="inline-flex items-center gap-2 px-6 py-2.5 mb-5 rounded-full border border-white/40 bg-[#4A553F] text-white font-semibold tracking-[0.18em] uppercase text-[8px]"
+          className="inline-flex items-center gap-2 px-6 py-2.5 mb-5 md:mb-3 rounded-full border border-white/40 bg-[#4A553F] text-white font-semibold tracking-[0.18em] uppercase text-[8px]"
         >
           ✨ SISTEMA MAESTRO DE PROGRAMAS DE SEGURIDAD HyS
         </motion.div>
@@ -42,7 +42,7 @@ export function HeroSection() {
             duration: 0.6,
             delay: 0.1,
           }}
-          className="font-heading md:text-5xl font-extrabold text-[#2f3a2c] mb-4 text-[26px]"
+          className="font-heading md:text-5xl font-extrabold text-[#2f3a2c] mb-4 md:mb-3 text-[26px]"
         >
           ¿Seguís armando Programas de Seguridad desde cero?{" "}
           <span className="text-[#B85C43]">Eso termina HOY.</span>
@@ -61,7 +61,7 @@ export function HeroSection() {
             duration: 0.6,
             delay: 0.2,
           }}
-          className="mx-auto mb-6 md:mb-3 w-full max-w-[300px] sm:max-w-sm md:max-w-sm"
+          className="mx-auto mb-6 md:mb-2 w-full max-w-[300px] sm:max-w-sm md:max-w-lg"
         >
           <img
             src={`${import.meta.env.BASE_URL}sistemamaestro-mockup.webp`}
@@ -88,7 +88,7 @@ export function HeroSection() {
             duration: 0.6,
             delay: 0.3,
           }}
-          className="md:text-xl text-slate-600 mb-6 max-w-2xl mx-auto text-[12px] mt-8 md:mt-4"
+          className="md:text-lg text-slate-600 mb-6 md:mb-2 max-w-2xl md:max-w-none mx-auto text-[12px] mt-8 md:mt-1 md:whitespace-nowrap"
         >
           Descargá un sistema completo con modelos, estructuras y documentos
           listos para adaptar.
@@ -107,7 +107,7 @@ export function HeroSection() {
             duration: 0.6,
             delay: 0.4,
           }}
-          className="flex flex-col items-center mt-10 md:mt-6"
+          className="flex flex-col items-center mt-10 md:mt-4"
         >
           <motion.a
             href="#comprar"
@@ -118,7 +118,7 @@ export function HeroSection() {
             whileTap={{
               scale: 0.98,
             }}
-            className="flex items-center justify-center gap-3 w-full sm:w-auto bg-[#B85C43] hover:bg-[#A34F38] text-white font-bold px-8 py-4 rounded-full shadow-lg shadow-[#B85C43]/30 transition-colors mb-14 md:mb-8 text-[16px]"
+            className="flex items-center justify-center gap-3 w-full sm:w-auto bg-[#B85C43] hover:bg-[#A34F38] text-white font-bold px-8 py-4 rounded-full shadow-lg shadow-[#B85C43]/30 transition-colors mb-14 md:mb-3 text-[16px]"
           >
             🚀 Descargar el Sistema Completo
           </motion.a>
