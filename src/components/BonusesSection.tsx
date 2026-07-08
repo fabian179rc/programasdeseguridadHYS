@@ -5,7 +5,7 @@ const bonuses = [
   {
     num: 1,
     title: "El Generador de Plantillas Editables",
-    desc: "Preguntas clave para relevar obras, tareas, equipos, riesgos y documentación antes de redactar el programa. Evitá omisiones y armá un documento sólido desde el primer contacto con el cliente.",
+    desc: "Preguntas clave para relevar obras, tareas, riesgos y documentación antes de redactar el programa, sin omisiones.",
     image: "sm-bono1.webp",
   },
   {
