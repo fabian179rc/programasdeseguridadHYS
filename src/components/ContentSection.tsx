@@ -1,46 +1,46 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { PackageOpen } from 'lucide-react';
+import React from "react";
+import { motion } from "framer-motion";
+import { PackageOpen } from "lucide-react";
 
 const modulos = [
-  { emoji: '🗺️', label: 'Filosofía del Blindaje Documental' },
-  { emoji: '📐', label: 'El Relevamiento Inteligente' },
-  { emoji: '📅', label: 'Estructura Base del Programa' },
-  { emoji: '⚠️', label: 'Matriz de Riesgos Integrada' },
-  { emoji: '✅', label: 'Redacción Técnica Profesional' },
-  { emoji: '🔍', label: 'Medidas Preventivas por Etapa' },
-  { emoji: '📸', label: 'Procedimientos de Trabajo Seguro (PTS)' },
-  { emoji: '📝', label: 'Gestión de Contratistas y Terceros' },
-  { emoji: '🛠️', label: 'El Protocolo de Firmas' },
-  { emoji: '📊', label: 'Defensa ante la Autoridad' },
-  { emoji: '🏭', label: 'Auditoría del Programa en Campo' },
-  { emoji: '🏆', label: 'Casos de Estudio Reales' },
+  { emoji: "🗺️", label: "Filosofía del Blindaje Documental" },
+  { emoji: "📐", label: "El Relevamiento Inteligente" },
+  { emoji: "📅", label: "Estructura Base del Programa" },
+  { emoji: "⚠️", label: "Matriz de Riesgos Integrada" },
+  { emoji: "✅", label: "Redacción Técnica Profesional" },
+  { emoji: "🔍", label: "Medidas Preventivas por Etapa" },
+  { emoji: "📸", label: "Procedimientos de Trabajo Seguro (PTS)" },
+  { emoji: "📝", label: "Gestión de Contratistas y Terceros" },
+  { emoji: "🛠️", label: "El Protocolo de Firmas" },
+  { emoji: "📊", label: "Defensa ante la Autoridad" },
+  { emoji: "🏭", label: "Auditoría del Programa en Campo" },
+  { emoji: "🏆", label: "Casos de Estudio Reales" },
 ];
 
 const temas = [
-  { emoji: '📋', label: 'Relevamiento previo' },
-  { emoji: '🔍', label: 'Análisis de etapas y tareas' },
-  { emoji: '⚠️', label: 'Evaluación de riesgos' },
-  { emoji: '📝', label: 'Redacción del programa' },
-  { emoji: '📊', label: 'Matrices de riesgos' },
-  { emoji: '✅', label: 'Medidas preventivas' },
-  { emoji: '👷', label: 'PTS críticos' },
-  { emoji: '🏗️', label: 'Obras y servicios' },
-  { emoji: '🔥', label: 'Gestión de contratistas' },
-  { emoji: '📈', label: 'Defensa ante inspecciones' },
-  { emoji: '➕', label: 'Y mucho más...' },
+  { emoji: "📋", label: "Relevamiento previo" },
+  { emoji: "🔍", label: "Análisis de etapas y tareas" },
+  { emoji: "⚠️", label: "Evaluación de riesgos" },
+  { emoji: "📝", label: "Redacción del programa" },
+  { emoji: "📊", label: "Matrices de riesgos" },
+  { emoji: "✅", label: "Medidas preventivas" },
+  { emoji: "👷", label: "PTS críticos" },
+  { emoji: "🏗️", label: "Obras y servicios" },
+  { emoji: "🔥", label: "Gestión de contratistas" },
+  { emoji: "📈", label: "Defensa ante inspecciones" },
+  { emoji: "➕", label: "Y mucho más..." },
 ];
 
 const rubros = [
-  { emoji: '🏗️', label: 'Construcción' },
-  { emoji: '🏭', label: 'Servicios Industriales' },
-  { emoji: '🔧', label: 'Mantenimiento' },
-  { emoji: '📄', label: 'Contratistas' },
+  { emoji: "🏗️", label: "Construcción" },
+  { emoji: "🏭", label: "Servicios Industriales" },
+  { emoji: "🔧", label: "Mantenimiento" },
+  { emoji: "📄", label: "Contratistas" },
 ];
 
 export function ContentSection() {
   return (
-    <section className="py-10 md:py-14 bg-transparent">
+    <section className="py-15 md:py-14 bg-transparent">
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-8">
           <span className="inline-flex items-center gap-2 px-6 py-2.5 mb-5 rounded-full border border-white/40 bg-[#4A553F] text-white font-semibold tracking-[0.18em] uppercase text-xs">
@@ -48,12 +48,12 @@ export function ContentSection() {
             ¿Qué contiene?
           </span>
           <h2 className="font-heading font-bold text-[#2f3a2c] text-3xl md:text-5xl leading-tight mb-4">
-            📦 12{' '}
+            📦 12{" "}
             <span className="italic text-[#5C6851]">Módulos Incluidos</span>
           </h2>
         </div>
 
-        <div className="grid sm:grid-cols-2 gap-3 mb-8">
+        <div className="grid sm:grid-cols-2 gap-1.5 mb-6">
           {modulos.map((m, i) => (
             <motion.div
               key={i}
@@ -61,9 +61,9 @@ export function ContentSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.04 }}
-              className="flex items-center gap-3 bg-white border border-slate-200 rounded-xl px-4 py-3 shadow-sm"
+              className="flex items-center gap-2 bg-white border border-slate-200 rounded-lg px-3 py-1.5 shadow-sm"
             >
-              <span className="text-xl flex-shrink-0" aria-hidden="true">
+              <span className="text-lg flex-shrink-0" aria-hidden="true">
                 {m.emoji}
               </span>
               <span className="font-semibold text-[#2f3a2c] text-sm md:text-[15px] leading-tight">
@@ -117,10 +117,8 @@ export function ContentSection() {
           </div>
           <p className="text-[#e6ddc7] text-sm md:text-base leading-relaxed max-w-2xl mx-auto">
             La estructura técnica es universal. Los modelos siguen los
-            lineamientos generales de la{' '}
-            <span className="font-bold text-white">
-              legislación argentina
-            </span>{' '}
+            lineamientos generales de la{" "}
+            <span className="font-bold text-white">legislación argentina</span>{" "}
             pero son adaptables a cualquier normativa provincial o regional.
           </p>
         </motion.div>

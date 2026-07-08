@@ -44,12 +44,12 @@ export function SolutionSection() {
           />
         </motion.div>
 
-        <div className="bg-white/60 border border-amber-100 text-[#2f3a2c] rounded-3xl p-6 md:p-8 shadow-sm">
+        {/* <div className="bg-white/60 border border-amber-100 text-[#2f3a2c] rounded-3xl p-6 md:p-8 shadow-sm">
           <p className="md:text-xl font-medium text-slate-700 text-[16px]">
             Sin copia y pega. Sin incoherencias técnicas. Sin programas que no
             resisten una inspección.
           </p>
-        </div>
+        </div> */}
       </div>
     </section>
   );

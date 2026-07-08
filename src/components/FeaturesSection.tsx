@@ -7,12 +7,11 @@ const features = [
   "Integración exacta entre Matriz de Riesgos y cuerpo del programa",
   "Procedimientos de Trabajo Seguro (PTS) ejecutables en campo",
   "Gestión de contratistas y terceros dentro del programa",
-  "Documentación completa, firmada y defendible ante ART, SRT y juicios",
 ];
 
 export function FeaturesSection() {
   return (
-    <section className="py-10 md:py-14 bg-transparent">
+    <section className="py-10 md:py-14 bg-transparent -mt-12">
       <div className="container mx-auto px-4 max-w-2xl">
         <div className="text-center mb-8">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-[#2f3a2c]">

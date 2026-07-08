@@ -90,9 +90,8 @@ export function HeroSection() {
           }}
           className="md:text-xl text-slate-600 mb-6 max-w-2xl mx-auto text-[12px] mt-8"
         >
-          Descargá, abrí y usá. Estructura, redacción y gestión de programas de
-          seguridad profesionales, listos para presentar, defender y firmar con
-          confianza.
+          Descargá un sistema completo con modelos, estructuras y documentos
+          listos para adaptar.
         </motion.p>
 
         <motion.div
@@ -108,7 +107,7 @@ export function HeroSection() {
             duration: 0.6,
             delay: 0.4,
           }}
-          className="flex flex-col items-center mt-14"
+          className="flex flex-col items-center mt-10"
         >
           <motion.a
             href="#comprar"
@@ -124,10 +123,10 @@ export function HeroSection() {
             🚀 Descargar el Sistema Completo
           </motion.a>
 
-          <div className="flex flex-wrap justify-center gap-4 text-sm font-medium text-slate-600">
+          <div className="flex flex-wrap justify-center gap-4 text-sm font-medium text-slate-600 -mt-8">
             <span>
-              <span aria-hidden="true">👥</span> +1.200 técnicos y
-              profesionales HyS ya lo descargaron
+              <span aria-hidden="true">👥</span> +1.200 técnicos y profesionales
+              HyS ya lo descargaron
             </span>
             <span
               aria-hidden="true"
