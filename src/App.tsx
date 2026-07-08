@@ -9,7 +9,7 @@ const PAGE_DESC =
   "Estructura, redacción y gestión de programas de seguridad profesionales, listos para presentar, defender y firmar con confianza.";
 const HERO_IMAGE = `${import.meta.env.BASE_URL}sistemamaestro-mockup.webp`;
 
-const SITE_URL = "https://placeholder.com";
+const SITE_URL = "https://programasdeseguridad.tupuntodigital.shop";
 function setMeta(attr: "name" | "property", key: string, content: string) {
   let el = document.head.querySelector<HTMLMetaElement>(
     `meta[${attr}="${key}"]`,
@@ -91,7 +91,7 @@ export function App() {
           price: "19990",
           priceCurrency: "ARS",
           availability: "https://schema.org/InStock",
-          url: "https://placeholder.impultienda.ar/checkout",
+          url: "https://programas-de-seguridad.impultienda.ar/checkout",
         },
       });
       document.head.appendChild(ld);
