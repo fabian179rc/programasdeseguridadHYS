@@ -97,34 +97,6 @@ export function ContentSection() {
             ))}
           </div>
         </div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="bg-[#4A553F] rounded-3xl p-5 md:p-7 shadow-sm text-center"
-        >
-          <h3 className="font-heading font-bold text-white text-xl md:text-2xl mb-5">
-            🏢 Adaptado a los rubros que más lo necesitan
-          </h3>
-          <div className="flex flex-wrap justify-center gap-3 mb-6">
-            {rubros.map((r, i) => (
-              <span
-                key={i}
-                className="inline-flex items-center gap-2 bg-white/10 border border-white/20 text-white rounded-full px-4 py-2 text-sm font-semibold"
-              >
-                <span aria-hidden="true">{r.emoji}</span>
-                {r.label}
-              </span>
-            ))}
-          </div>
-          <p className="text-[#e6ddc7] text-sm md:text-base leading-relaxed max-w-2xl mx-auto">
-            La estructura técnica es universal. Los modelos siguen los
-            lineamientos generales de la{" "}
-            <span className="font-bold text-white">legislación argentina</span>{" "}
-            pero son adaptables a cualquier normativa provincial o regional.
-          </p>
-        </motion.div>
       </div>
     </section>
   );
