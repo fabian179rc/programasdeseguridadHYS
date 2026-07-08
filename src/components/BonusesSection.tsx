@@ -5,7 +5,7 @@ const bonuses = [
   {
     num: 1,
     title: "El Generador de Plantillas Editables",
-    desc: "Modelos base completos en PDF para programas de construcción, industria y servicios. Abrís, cargás los datos de tu cliente y tenés la estructura lista.",
+    desc: "Preguntas clave para relevar obras, tareas, equipos, riesgos y documentación antes de redactar el programa. Evitá omisiones y armá un documento sólido desde el primer contacto con el cliente.",
     image: "sm-bono1.webp",
   },
   {
