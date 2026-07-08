@@ -4,6 +4,7 @@ import { scrollToOffer } from "../utils/scrollToOffer";
 
 export function FloatingCTA() {
   const [visible, setVisible] = useState(false);
+  const [offerInView, setOfferInView] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setVisible(window.scrollY > 600);
@@ -12,9 +13,20 @@ export function FloatingCTA() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  useEffect(() => {
+    const target = document.getElementById("comprar");
+    if (!target) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => setOfferInView(entry.isIntersecting),
+      { threshold: 0.15 },
+    );
+    observer.observe(target);
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <AnimatePresence>
-      {visible && (
+      {visible && !offerInView && (
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
